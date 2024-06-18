@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
@@ -37,8 +38,7 @@ export default function Weather() {
               className="float-left"
             />
             <div className="float-left">
-              <span className="temperature">6</span>
-              <span className="unit">°C</span>
+              <span className="temperature">6</span><span className="unit">°C</span>
             </div>
           </div>
         </div>

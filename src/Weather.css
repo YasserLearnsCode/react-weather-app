@@ -30,17 +30,21 @@
   height: 64px;
   width: 64px;
   margin-right: 10px;
-  display: inline-block;
 }
 
 .Weather .temperature {
-  display: inline;
   font-weight: bold;
   color: rgb(32, 33, 36);
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  position: relative;
+  bottom: -20px;
 
+}
+
+.Weather .float-left{
+  display: inline-block;
 }
 
 .Weather .unit {
@@ -48,6 +52,6 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -32px;
+  top: -11px;
   margin-left: 5px;
 }

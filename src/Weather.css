@@ -38,6 +38,8 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  position: relative;
+  top: -5px;
 }
 
 .Weather .float-left {

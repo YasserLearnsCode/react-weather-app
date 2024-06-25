@@ -26,6 +26,10 @@
   list-style: none;
 }
 
+.btn-primary {
+  background-color: #6c63ff;
+}
+
 .Weather canvas {
   margin-top: 5px;
   margin-right: 5px;
@@ -54,4 +58,8 @@
   top: -34px;
   line-height: 1;
   margin-left: 0;
+}
+
+.unit a {
+text-decoration: none;
 }

@@ -6,3 +6,7 @@
   opacity: 0.8;
   margin-left: 5px;
 }
+
+.weatherForecast-temperature-max {
+  color: #6c63ff;
+}

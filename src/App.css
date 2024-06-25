@@ -8,4 +8,9 @@
 .App footer {
   font-size: 11px;
   margin: 20px 0;
+  text-align: center;
+}
+
+.App .container {
+  background-color: #f5f2fe;
 }
